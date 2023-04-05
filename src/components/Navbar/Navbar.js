@@ -7,9 +7,9 @@ const NavBar = () => {
     <nav className="NavBar" >
         <Link to='/'>DrumShop</Link>
         <div className="Categories">
-            <NavLink to='/category/pearl' className={({ isActive }) => isActive ? 'ActiveOption' : 'Option'}>Pearl</NavLink>
-            <NavLink to='/category/mapex' className={({ isActive }) => isActive ? 'ActiveOption' : 'Option'}>Mapex</NavLink>
-            <NavLink to='/category/tama' className={({ isActive }) => isActive ? 'ActiveOption' : 'Option'}>TAMA</NavLink>
+            <NavLink to='/category/pearl' >Pearl</NavLink>
+            <NavLink to='/category/mapex' >Mapex</NavLink>
+            <NavLink to='/category/tama' >TAMA</NavLink>
         </div>
         <CartWidget />
     </nav>

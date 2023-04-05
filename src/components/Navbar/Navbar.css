@@ -27,10 +27,13 @@ body{
     margin: 0 50px;
     
     width: auto;
-    padding: 12px;
-    font-size: 8px;
+    margin-top: 30px;
+    margin-bottom: -20px;
+    
+    padding: 10px 20px;
+    font-size: 16px;
     background: #f5a630;
-    border-radius: 8px;
+    border-radius: 20px;
     flex: none;
     display: flex;
     order: 1;
@@ -74,5 +77,14 @@ body{
   }
   
   .NavLink {
+    text-decoration: none;
     color :rgb(255, 0, 0)
+  }
+
+  .App nav a{
+    text-decoration: none;
+    color: #f5a630;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 50px;
   }
