@@ -1,0 +1,78 @@
+/* #f5a630  -  yellow*/
+/* rgb(37, 37, 37);  -  gray */
+
+body{
+  background-color: rgb(37, 37, 37);
+}
+
+
+.NavBar {
+    display: flex;
+    background: transparent;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    background: black;
+  }
+  
+  .Categories {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .Option {
+    text-decoration: none;
+    border-radius: 25;
+    margin: 0 50px;
+    
+    width: auto;
+    padding: 12px;
+    font-size: 8px;
+    background: #f5a630;
+    border-radius: 8px;
+    flex: none;
+    display: flex;
+    order: 1;
+    align-self: center;
+    flex-grow: 0;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #FFFFFF;
+    border: none;
+    border-style: none;
+    cursor: pointer;
+    outline: inherit;
+  }
+  
+  .ActiveOption {
+    
+    text-decoration: none;
+    border-radius: 25;
+    margin: 0 50px;
+    
+    width: auto;
+    padding: 12px;
+    font-size: 15px;
+    background: rgb(37, 37, 37);
+    border-radius: 8px;
+    flex: none;
+    display: flex;
+    order: 1;
+    align-self: center;
+    flex-grow: 0;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #FFFFFF;
+    border: none;
+    border-style: none;
+    cursor: pointer;
+    outline: inherit;
+    transition: 0.5s;
+  }
+  
+  .NavLink {
+    color :rgb(255, 0, 0)
+  }
